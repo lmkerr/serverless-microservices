@@ -1,6 +1,3 @@
-# Codingly.io: Base Serverless Framework Template
-
-https://codingly.io
 
 ## Whats happening here?
 
