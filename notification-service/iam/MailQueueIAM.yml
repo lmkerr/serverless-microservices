@@ -1,0 +1,5 @@
+MailQueuIAM:
+  Effect: Allow
+  Action:
+    - sql:ReceiveMessage
+  Resource: ${self:custom.MailQueue.arn}
