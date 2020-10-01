@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "serverless-microservices:src/handlers/picture/upload-picture.uploadAuctionPicture (nodejs12.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "auction-service",
+                "lambdaHandler": "src/handlers/picture/upload-picture.uploadAuctionPicture"
+            },
+            "lambda": {
+                "runtime": "nodejs12.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}
